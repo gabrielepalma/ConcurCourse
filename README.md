@@ -1,4 +1,2 @@
 # ConcurCourse
-
-Link: 
-https://github.com/gabrielepalma/ConcurCourse
+# https://github.com/gabrielepalma/ConcurCourse
