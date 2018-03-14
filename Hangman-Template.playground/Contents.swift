@@ -20,9 +20,10 @@ Hangman
  First part: Setting up the game and identifying the game state
 
  Rough guildeline:
- - open the file and select a word
-        - get the url in the bundle with url(forResource name: String?, withExtension ext: String?)
-        - read the file, for example using the String convenience initializer
+ - open the file and select a word:
+        - to read the file you can use something like:
+             let fileURL = Bundle.main.url(forResource: "words-small", withExtension: "txt")
+             let content = try String(contentsOf: fileURL!, encoding: String.Encoding.utf8)
         - split the file using string functions
         - select a word at a chosen index
  - define a structure that will contain the player guesses
