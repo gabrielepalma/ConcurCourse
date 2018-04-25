@@ -11,7 +11,7 @@ import Foundation
 
 class GalleryViewController: UIViewController {
 
-    let model : FavoritesProtocol = InMemoryFavorites()
+    let model : FavoritesProtocol = InCoreDataFavorites()
     let catProvider = CatProvider()
 
     var currentData : Data?

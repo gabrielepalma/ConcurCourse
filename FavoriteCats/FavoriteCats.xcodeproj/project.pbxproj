@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E5083C82090EC380001691E /* FileSystemHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5083C72090EC380001691E /* FileSystemHelper.swift */; };
+		2E5083CA2090EDDC0001691E /* InUserDefaultsFavorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5083C92090EDDC0001691E /* InUserDefaultsFavorites.swift */; };
+		2E5083CD2090F10D0001691E /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5083CB2090F10D0001691E /* Favorites.swift */; };
+		2E5083CE2090F10D0001691E /* Favorites+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5083CC2090F10D0001691E /* Favorites+CoreDataProperties.swift */; };
+		2E5083D02090F1650001691E /* InCoreDataFavorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5083CF2090F1650001691E /* InCoreDataFavorites.swift */; };
 		2ED92C48209088A900F78E57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED92C47209088A900F78E57 /* AppDelegate.swift */; };
 		2ED92C4D209088A900F78E57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ED92C4B209088A900F78E57 /* Main.storyboard */; };
 		2ED92C50209088A900F78E57 /* FavoriteCats.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2ED92C4E209088A900F78E57 /* FavoriteCats.xcdatamodeld */; };
@@ -38,6 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E5083C72090EC380001691E /* FileSystemHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSystemHelper.swift; sourceTree = "<group>"; };
+		2E5083C92090EDDC0001691E /* InUserDefaultsFavorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InUserDefaultsFavorites.swift; sourceTree = "<group>"; };
+		2E5083CB2090F10D0001691E /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
+		2E5083CC2090F10D0001691E /* Favorites+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Favorites+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2E5083CF2090F1650001691E /* InCoreDataFavorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InCoreDataFavorites.swift; sourceTree = "<group>"; };
 		2ED92C44209088A900F78E57 /* FavoriteCats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavoriteCats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ED92C47209088A900F78E57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2ED92C4C209088A900F78E57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -107,9 +117,14 @@
 			children = (
 				2ED92C47209088A900F78E57 /* AppDelegate.swift */,
 				2ED92C7A209095B100F78E57 /* GalleryViewController.swift */,
+				2E5083C72090EC380001691E /* FileSystemHelper.swift */,
+				2E5083C92090EDDC0001691E /* InUserDefaultsFavorites.swift */,
+				2E5083CF2090F1650001691E /* InCoreDataFavorites.swift */,
 				2ED92C7C209095CD00F78E57 /* FavoritesTableViewController.swift */,
 				2ED92C7E2090961A00F78E57 /* FavoritesProtocol.swift */,
 				2ED92C8020909E9100F78E57 /* CatProvider.swift */,
+				2E5083CB2090F10D0001691E /* Favorites.swift */,
+				2E5083CC2090F10D0001691E /* Favorites+CoreDataProperties.swift */,
 				2ED92C4B209088A900F78E57 /* Main.storyboard */,
 				2ED92C51209088A900F78E57 /* Assets.xcassets */,
 				2ED92C53209088AA00F78E57 /* LaunchScreen.storyboard */,
@@ -271,9 +286,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E5083D02090F1650001691E /* InCoreDataFavorites.swift in Sources */,
+				2E5083C82090EC380001691E /* FileSystemHelper.swift in Sources */,
+				2E5083CE2090F10D0001691E /* Favorites+CoreDataProperties.swift in Sources */,
+				2E5083CA2090EDDC0001691E /* InUserDefaultsFavorites.swift in Sources */,
 				2ED92C7B209095B100F78E57 /* GalleryViewController.swift in Sources */,
 				2ED92C8120909E9100F78E57 /* CatProvider.swift in Sources */,
 				2ED92C48209088A900F78E57 /* AppDelegate.swift in Sources */,
+				2E5083CD2090F10D0001691E /* Favorites.swift in Sources */,
 				2ED92C50209088A900F78E57 /* FavoriteCats.xcdatamodeld in Sources */,
 				2ED92C7D209095CD00F78E57 /* FavoritesTableViewController.swift in Sources */,
 				2ED92C7F2090961A00F78E57 /* FavoritesProtocol.swift in Sources */,
